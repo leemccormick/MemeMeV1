@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3632297025211E2A00BCD65F /* memeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632296F25211E2A00BCD65F /* memeStruct.swift */; };
 		36495CC725192A1400B123C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36495CC625192A1400B123C2 /* AppDelegate.swift */; };
 		36495CC925192A1400B123C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36495CC825192A1400B123C2 /* SceneDelegate.swift */; };
 		36495CCB25192A1400B123C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36495CCA25192A1400B123C2 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3632296F25211E2A00BCD65F /* memeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memeStruct.swift; sourceTree = "<group>"; };
 		36495CC325192A1400B123C2 /* MemeMeV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMeV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36495CC625192A1400B123C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36495CC825192A1400B123C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				36495CC625192A1400B123C2 /* AppDelegate.swift */,
 				36495CC825192A1400B123C2 /* SceneDelegate.swift */,
 				36495CCA25192A1400B123C2 /* ViewController.swift */,
+				3632296F25211E2A00BCD65F /* memeStruct.swift */,
 				36495CCC25192A1400B123C2 /* Main.storyboard */,
 				36495CCF25192A1A00B123C2 /* Assets.xcassets */,
 				36495CD125192A1A00B123C2 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3632297025211E2A00BCD65F /* memeStruct.swift in Sources */,
 				36495CCB25192A1400B123C2 /* ViewController.swift in Sources */,
 				36495CC725192A1400B123C2 /* AppDelegate.swift in Sources */,
 				36495CC925192A1400B123C2 /* SceneDelegate.swift in Sources */,

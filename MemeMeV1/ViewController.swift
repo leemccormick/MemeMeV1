@@ -70,14 +70,14 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,
     //MARK: - KeyBoard Appear Code
     //When the keyboardWillShow notification is received, shift the view's frame up
     @objc func keyboardWillShow(_ notification:Notification) {
+        if bottomTextField.isFirstResponder{
         view.frame.origin.y -= getKeyboardHeight(notification)
+        }
     }
     
     //keyboard will hide.
     @objc func keyboardWillHide(_ notification:Notification) {
-        if bottomTextField.isFirstResponder{
             view.frame.origin.y = 0.0
-        }
     }
     
     func getKeyboardHeight(_ notification:Notification) -> CGFloat {
@@ -207,24 +207,5 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate,
         settingUpTextField(textField: bottomTextField, text: "BOTTOM")
     }
 }
-
-//MARK: - Initializing a Meme object with Struct
-//Initializing a Meme object
-struct Meme {
-    var topText: String
-    var bottomText: String
-    var originalImage: UIImage
-    var memedImage: UIImage
-    
-    init(topText: String, bottomText: String, originalImage: UIImage, memedImage: UIImage) {
-        self.topText = topText
-        self.bottomText = bottomText
-        self.originalImage = originalImage
-        self.memedImage = memedImage
-    }
-}
-
-
-
 
 
