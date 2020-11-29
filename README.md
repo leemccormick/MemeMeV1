@@ -2,7 +2,7 @@
 MemeMeV1 is the first version of MemeMe. It is an iOS app that enables a user to take a picture, and add text at the top and bottom to form a meme. The user will be able to share the photo on Facebook, Twitter, SMS or email. 
 
 ## Udacity Project
-MemeMe covers many of the major UI components found in essentially every app. It combines them woth the camera and social media activity view to create a fun and personal user experience. UIKit Foundamentals are key to this project.'
+MemeMe covers many of the major UI components found in essentially every app. It combines them woth the camera and social media activity view to create a fun and personal user experience. UIKit Foundamentals are key to this project.
 * Access the camera and photo album using the UIImagePickerController
 * Learn Swift optionals, closures, collections, classes, structs and protocols in iOS apps
 * Create Actions and Outlets with extremely hight proficiency
